@@ -1,2 +1,2 @@
 {% assign post_name = page.path | split: "/" | last | split: "." | first %}
-<img src="{{ site.image_baseurl }}/{{ post_name }}/{{ include.path }}" width="{{ include.width | default: '400' }}"/>
+<img src="{{ site.baseurl }}/{{ site.image_baseurl }}/{{ post_name }}/{{ include.path }}" width="{{ include.width | default: '400' }}"/>

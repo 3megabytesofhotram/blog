@@ -22,7 +22,7 @@ title: 3megabytesofhotRAM
 # email: 
 description: >- # this means to ignore newlines until "baseurl:"
   3megabytesofhotRAM, a blog about machine learning & more. Site under development.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: https://3megabytesofhotram.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  3megabytesofhotram
 
@@ -31,7 +31,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-image_baseurl: "/assets/images"
+image_baseurl: "assets/images"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
