@@ -1,0 +1,30 @@
+.footnote-ref {
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.footnote-tooltip {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 10px 0px 10px;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    line-height: 1.4;
+    width: max-content;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.footnote-ref:hover .footnote-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
