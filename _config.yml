@@ -28,6 +28,9 @@ github_username:  3megabytesofhotram
 
 # Build settings
 theme: minima
+minima:
+  show_excerpts: true # Recent update, will be used later
+show_excerpts: true
 plugins:
   - jekyll-feed
 
