@@ -1,1 +1,1 @@
-Just a test
+Just a test, blog should be up
