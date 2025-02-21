@@ -71,7 +71,7 @@ Relevant paper: [Flexible Isosurface Extraction for Gradient-Based Mesh Optimiza
 
 You can have volumetric meshes, which model the interior of objects, but the meshes TRELLIS is concerned with are the standard polygon meshes you're probably familiar with from video games. 
 
-TRELLIS upscales each SLAT voxel into $4^3 = 64$ smaller voxels. Each smaller voxel is mapped to a vector pair $(\textbf{w}, d)$. $\textbf{w} \in \mathbb{R}^{45}$ are the FlexiCube parameters, which, as the name suggests, allow the voxel to deform so that the final mesh looks like a bunch of cubes. $d \in \mathbb{R}^8$ is simply the distance each vertex of the voxel to the surface of the mesh.
+TRELLIS upscales each SLAT voxel into $4^3 = 64$ smaller voxels. Each smaller voxel is mapped to a vector pair $(\textbf{w}, d)$. $\textbf{w} \in \mathbb{R}^{45}$ are the FlexiCube parameters, which, as the name suggests, allow the voxel to deform so that the final mesh doesn't look like a bunch of cubes. $d \in \mathbb{R}^8$ is simply the distance each vertex of the voxel to the surface of the mesh.
 
 #### <a name="A.1.4"></a> A.1.4 Non-Exhaustive List of Other 3D Representations
 
